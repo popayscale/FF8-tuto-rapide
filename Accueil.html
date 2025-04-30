@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="." />
+    <title>Final Fantasy 8 - Menu Principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu-container" class="menu-container">
+        <img src="ff8/Accueil.png" alt="FF8 Menu Principal" class="menu-image" id="main-menu">
+
+        <div class="central-text">
+            Pour Commencer il faut posséder des magies et des G-Forces que l'on peut associer via les menus "Associer" et "Magies", commencez par explorez les "Magies" ou séléctionnez une G-force dans "Associer".
+        </div>
+
+        <a href="gforce.html" id="associer-area" class="clickable-area" data-menu="associer" style="top: 35px; left: 564px; width: 100px; height: 40px;">
+            <div class="tooltip">Association G-Force et Magies</div>
+        </a>
+
+        <a href="magie.html" id="magie-area" class="clickable-area" data-menu="magie" style="top: 100px; left: 564px; width: 100px; height: 40px;">
+            <div class="tooltip">Gestion des Magies</div>
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

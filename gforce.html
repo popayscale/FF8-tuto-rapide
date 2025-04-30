@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="." />
+    <title>Final Fantasy 8 - Menu G-Force</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu-container" class="menu-container">
+        <img src="ff8/gforce.png" alt="FF8 Menu G-Force" class="menu-image" id="gforce-menu">
+
+        <div class="gforce-stats">
+            <p>
+            Dans ce menu vous pouvez choisir une G-force<br>
+            Pour l'exemple choisissez Golgotha ou Shiva , des différences sur les capacités associables sont visible en blanc dans le cadre en bas,les grisés ne seront donc pas disponibles si la g-force est associée. <br> Clic sur "Associer" pour retour.
+        </p>
+        </div>
+
+        <a href="Accueil.html" class="clickable-area" id="return-area" style="top: 25px; left: 564px; width: 100px; height: 40px;">
+            <div class="tooltip">Retour</div>
+        </a>
+
+        <a href="golgotha.html" class="clickable-area gforce-option golgotha" style="top: 170px; left: 410px; width: 210px; height: 30px;">
+            <div class="tooltip">Golgotha - Niveau 100</div>
+        </a>
+
+        <a href="shiva.html" class="clickable-area gforce-option shiva" style="top: 210px; left: 410px; width: 100px; height: 30px;">
+            <div class="tooltip">Shiva - Niveau 1</div>
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
